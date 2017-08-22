@@ -1,0 +1,47 @@
+-----------------ArrayList-----------------
+arrayList		[0, 1, 2, 3, 2]
+.add(5)			[0, 1, 2, 3, 2, 5]
+.remove(0)		[1, 2, 3, 2, 5]
+.size()			5
+.get(3)			2
+.indexOf(2)		1
+.indexOf(2, 3)	3
+Copy of the first arrayList:		[1, 2, 3, 2, 5]
+-----------------LinkedList-----------------
+linkedList		[0, 1, 2, 3]
+.add(10)		[0, 1, 2, 3, 10]
+.remove(3)		[0, 1, 2, 10]
+.size()			4
+.get(1)			1
+.getFirst()		0
+.getLast()		10
+.contains(10)	true
+.contains(93)	false
+-----------------Queue-----------------
+queue			[0, 2, 4, 8, 16]
+.add(32)		[0, 2, 4, 8, 16, 32]
+.remove(2)		[0, 2, 8, 16, 32]
+.size()			5
+.peek()			0
+.poll()			0
+.poll()			2
+queue			[8, 16, 32]
+.contains(32)	true
+.contains(2)	false
+-----------------Stack-----------------
+stack			[a, b, c, d, e]
+.push(f)		[a, b, c, d, e, f]
+.remove(1)		[a, c, d, e, f]
+.indexOf('a')	0
+.size()			5
+.peek()			f
+.pop()			f
+.pop()			e
+stack			[a, c, d]
+-----------------HashMap-----------------
+hashMap				["1984"=J.Orwell, "The Lord of The Rings"=J.R.R.Tolkien, "Crime and Punishment"=F.M.Dostoevsky]
+.put(...)			["1984"=J.Orwell, "The Lord of The Rings"=J.R.R.Tolkien, "Crime and Punishment"=F.M.Dostoevsky, "Dark Tower"=S.King]
+.remove("1984")		["The Lord of The Rings"=J.R.R.Tolkien, "Crime and Punishment"=F.M.Dostoevsky, "Dark Tower"=S.King]
+.containsKey("Crime and Punishment")	true
+.containsValue("Jane Austen")			false
+.keySet()			["The Lord of The Rings", "Crime and Punishment", "Dark Tower"]
